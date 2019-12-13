@@ -1,12 +1,13 @@
 import React from 'react';
-import ExecutiveSummary from './pages/ExecutiveSummary'
 import './App.css';
-
+import DisruptionRport from './components/DisruptionReport';
 
 function App() {
   return (
     <div className="App">
-      <ExecutiveSummary/>
+
+      <DisruptionRport/>
+
     </div>
   );
 }

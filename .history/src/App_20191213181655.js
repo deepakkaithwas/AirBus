@@ -1,12 +1,13 @@
 import React from 'react';
-import ExecutiveSummary from './pages/ExecutiveSummary'
+import logo from './logo.svg';
 import './App.css';
-
 
 function App() {
   return (
     <div className="App">
-      <ExecutiveSummary/>
+
+      Executive Summary
+      
     </div>
   );
 }
